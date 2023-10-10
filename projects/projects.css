@@ -1,0 +1,29 @@
+.projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    width: 45%; 
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.project h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF; 
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}

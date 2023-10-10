@@ -1,0 +1,38 @@
+.hobbies {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    background: url('path_to_background_image.jpg');
+    background-size: cover;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 20px;
+}
+
+.hobby-item {
+    margin-top: 40px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    float: none; 
+}
+
+.hobby-item:first-child {
+    border-top: none;
+}
+
+.hobby-item:last-child {
+    padding-bottom: 40px;
+}
+
+.hobby-item h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.hobby-item p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.5;
+    text-align: left;
+}
